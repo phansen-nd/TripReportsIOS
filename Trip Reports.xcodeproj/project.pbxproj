@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25E41F3D75BAD1ED9EF174F6 /* Pods_Trip_ReportsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5A4C29AD1629E0DEEA377B /* Pods_Trip_ReportsTests.framework */; };
+		43B53F2B2745C104000AE03C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F2A2745C104000AE03C /* CircleImage.swift */; };
+		43B53F2D2745C2A1000AE03C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F2C2745C2A1000AE03C /* MapView.swift */; };
+		43B53F2F2745C8C9000AE03C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B53F2E2745C8C9000AE03C /* landmarkData.json */; };
+		43B53F322745C8EA000AE03C /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F312745C8EA000AE03C /* Landmark.swift */; };
+		43B53F342745CAAB000AE03C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F332745CAAB000AE03C /* ModelData.swift */; };
+		43B53F362745CC25000AE03C /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F352745CC25000AE03C /* LandmarkRow.swift */; };
+		43B53F382745CE6D000AE03C /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F372745CE6D000AE03C /* LandmarkList.swift */; };
+		43B53F3A2745D0BB000AE03C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B53F392745D0BB000AE03C /* LandmarkDetail.swift */; };
 		43BAF9BF274370A8001AE308 /* Trip_ReportsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF9BE274370A8001AE308 /* Trip_ReportsApp.swift */; };
 		43BAF9C1274370A8001AE308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF9C0274370A8001AE308 /* ContentView.swift */; };
 		43BAF9C3274370A9001AE308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BAF9C2274370A9001AE308 /* Assets.xcassets */; };
@@ -14,6 +23,11 @@
 		43BAF9D0274370A9001AE308 /* Trip_ReportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF9CF274370A9001AE308 /* Trip_ReportsTests.swift */; };
 		43BAF9DA274370A9001AE308 /* Trip_ReportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF9D9274370A9001AE308 /* Trip_ReportsUITests.swift */; };
 		43BAF9DC274370A9001AE308 /* Trip_ReportsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BAF9DB274370A9001AE308 /* Trip_ReportsUITestsLaunchTests.swift */; };
+		43BAF9E927437119001AE308 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43BAF9E827437119001AE308 /* GoogleService-Info.plist */; };
+		43BAF9EA27437119001AE308 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43BAF9E827437119001AE308 /* GoogleService-Info.plist */; };
+		43BAF9EB27437119001AE308 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43BAF9E827437119001AE308 /* GoogleService-Info.plist */; };
+		606FB79044CE94ED752D6F9C /* Pods_Trip_Reports_Trip_ReportsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D92387C993D3CAB7842FC76 /* Pods_Trip_Reports_Trip_ReportsUITests.framework */; };
+		F30CBC8835C5BAE01659E335 /* Pods_Trip_Reports.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD16BA69663AE54CD3061A4 /* Pods_Trip_Reports.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F5A4C29AD1629E0DEEA377B /* Pods_Trip_ReportsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip_ReportsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3317259DB1295D243C3058C7 /* Pods-Trip ReportsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip ReportsTests.debug.xcconfig"; path = "Target Support Files/Pods-Trip ReportsTests/Pods-Trip ReportsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34419A3EB4B96651C9E7495C /* Pods-Trip Reports.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip Reports.debug.xcconfig"; path = "Target Support Files/Pods-Trip Reports/Pods-Trip Reports.debug.xcconfig"; sourceTree = "<group>"; };
+		3F00A08C8DB6A91542885E75 /* Pods-Trip ReportsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip ReportsTests.release.xcconfig"; path = "Target Support Files/Pods-Trip ReportsTests/Pods-Trip ReportsTests.release.xcconfig"; sourceTree = "<group>"; };
+		43B53F2A2745C104000AE03C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		43B53F2C2745C2A1000AE03C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		43B53F2E2745C8C9000AE03C /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		43B53F312745C8EA000AE03C /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		43B53F332745CAAB000AE03C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		43B53F352745CC25000AE03C /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		43B53F372745CE6D000AE03C /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		43B53F392745D0BB000AE03C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		43BAF9BB274370A8001AE308 /* Trip Reports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trip Reports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BAF9BE274370A8001AE308 /* Trip_ReportsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_ReportsApp.swift; sourceTree = "<group>"; };
 		43BAF9C0274370A8001AE308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +70,12 @@
 		43BAF9D5274370A9001AE308 /* Trip ReportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trip ReportsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BAF9D9274370A9001AE308 /* Trip_ReportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_ReportsUITests.swift; sourceTree = "<group>"; };
 		43BAF9DB274370A9001AE308 /* Trip_ReportsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_ReportsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43BAF9E827437119001AE308 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D92387C993D3CAB7842FC76 /* Pods_Trip_Reports_Trip_ReportsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip_Reports_Trip_ReportsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD16BA69663AE54CD3061A4 /* Pods_Trip_Reports.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trip_Reports.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690C7C6D8481017A446D41D /* Pods-Trip Reports.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip Reports.release.xcconfig"; path = "Target Support Files/Pods-Trip Reports/Pods-Trip Reports.release.xcconfig"; sourceTree = "<group>"; };
+		D01F0460CB9E3610542E8E33 /* Pods-Trip Reports-Trip ReportsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip Reports-Trip ReportsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trip Reports-Trip ReportsUITests/Pods-Trip Reports-Trip ReportsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E007286469C7B15E099F95E3 /* Pods-Trip Reports-Trip ReportsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trip Reports-Trip ReportsUITests.release.xcconfig"; path = "Target Support Files/Pods-Trip Reports-Trip ReportsUITests/Pods-Trip Reports-Trip ReportsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30CBC8835C5BAE01659E335 /* Pods_Trip_Reports.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E41F3D75BAD1ED9EF174F6 /* Pods_Trip_ReportsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +99,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606FB79044CE94ED752D6F9C /* Pods_Trip_Reports_Trip_ReportsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43B53F262745C0A5000AE03C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43B53F2E2745C8C9000AE03C /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		43B53F292745C0DE000AE03C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43BAF9C0274370A8001AE308 /* ContentView.swift */,
+				43B53F2A2745C104000AE03C /* CircleImage.swift */,
+				43B53F2C2745C2A1000AE03C /* MapView.swift */,
+				43B53F352745CC25000AE03C /* LandmarkRow.swift */,
+				43B53F372745CE6D000AE03C /* LandmarkList.swift */,
+				43B53F392745D0BB000AE03C /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43B53F302745C8DD000AE03C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43B53F312745C8EA000AE03C /* Landmark.swift */,
+				43B53F332745CAAB000AE03C /* ModelData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		43BAF9B2274370A8001AE308 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +143,8 @@
 				43BAF9CE274370A9001AE308 /* Trip ReportsTests */,
 				43BAF9D8274370A9001AE308 /* Trip ReportsUITests */,
 				43BAF9BC274370A8001AE308 /* Products */,
+				47B9A584E95AAD93007612F7 /* Pods */,
+				89464386283D7568BCB1CDC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +161,12 @@
 		43BAF9BD274370A8001AE308 /* Trip Reports */ = {
 			isa = PBXGroup;
 			children = (
+				43B53F302745C8DD000AE03C /* Models */,
+				43B53F292745C0DE000AE03C /* Views */,
+				43B53F262745C0A5000AE03C /* Resources */,
 				43BAF9BE274370A8001AE308 /* Trip_ReportsApp.swift */,
-				43BAF9C0274370A8001AE308 /* ContentView.swift */,
 				43BAF9C2274370A9001AE308 /* Assets.xcassets */,
+				43BAF9E827437119001AE308 /* GoogleService-Info.plist */,
 				43BAF9C4274370A9001AE308 /* Preview Content */,
 			);
 			path = "Trip Reports";
@@ -127,6 +197,29 @@
 			path = "Trip ReportsUITests";
 			sourceTree = "<group>";
 		};
+		47B9A584E95AAD93007612F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34419A3EB4B96651C9E7495C /* Pods-Trip Reports.debug.xcconfig */,
+				C690C7C6D8481017A446D41D /* Pods-Trip Reports.release.xcconfig */,
+				D01F0460CB9E3610542E8E33 /* Pods-Trip Reports-Trip ReportsUITests.debug.xcconfig */,
+				E007286469C7B15E099F95E3 /* Pods-Trip Reports-Trip ReportsUITests.release.xcconfig */,
+				3317259DB1295D243C3058C7 /* Pods-Trip ReportsTests.debug.xcconfig */,
+				3F00A08C8DB6A91542885E75 /* Pods-Trip ReportsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89464386283D7568BCB1CDC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD16BA69663AE54CD3061A4 /* Pods_Trip_Reports.framework */,
+				4D92387C993D3CAB7842FC76 /* Pods_Trip_Reports_Trip_ReportsUITests.framework */,
+				0F5A4C29AD1629E0DEEA377B /* Pods_Trip_ReportsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43BAF9DF274370A9001AE308 /* Build configuration list for PBXNativeTarget "Trip Reports" */;
 			buildPhases = (
+				79FFD0CED318CB5A66E42B7E /* [CP] Check Pods Manifest.lock */,
 				43BAF9B7274370A8001AE308 /* Sources */,
 				43BAF9B8274370A8001AE308 /* Frameworks */,
 				43BAF9B9274370A8001AE308 /* Resources */,
+				48B73091FC9DD74750D03BB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43BAF9E2274370A9001AE308 /* Build configuration list for PBXNativeTarget "Trip ReportsTests" */;
 			buildPhases = (
+				B0A2BFC6E4D40C14DA781EF1 /* [CP] Check Pods Manifest.lock */,
 				43BAF9C7274370A9001AE308 /* Sources */,
 				43BAF9C8274370A9001AE308 /* Frameworks */,
 				43BAF9C9274370A9001AE308 /* Resources */,
@@ -169,9 +265,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43BAF9E5274370A9001AE308 /* Build configuration list for PBXNativeTarget "Trip ReportsUITests" */;
 			buildPhases = (
+				660D23E8C7BEF3B18EF8B422 /* [CP] Check Pods Manifest.lock */,
 				43BAF9D1274370A9001AE308 /* Sources */,
 				43BAF9D2274370A9001AE308 /* Frameworks */,
 				43BAF9D3274370A9001AE308 /* Resources */,
+				524C8D7958CEB627495F60B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +331,8 @@
 			files = (
 				43BAF9C6274370A9001AE308 /* Preview Assets.xcassets in Resources */,
 				43BAF9C3274370A9001AE308 /* Assets.xcassets in Resources */,
+				43B53F2F2745C8C9000AE03C /* landmarkData.json in Resources */,
+				43BAF9E927437119001AE308 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BAF9EA27437119001AE308 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +348,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43BAF9EB27437119001AE308 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48B73091FC9DD74750D03BB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trip Reports/Pods-Trip Reports-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trip Reports/Pods-Trip Reports-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trip Reports/Pods-Trip Reports-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		524C8D7958CEB627495F60B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trip Reports-Trip ReportsUITests/Pods-Trip Reports-Trip ReportsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trip Reports-Trip ReportsUITests/Pods-Trip Reports-Trip ReportsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trip Reports-Trip ReportsUITests/Pods-Trip Reports-Trip ReportsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660D23E8C7BEF3B18EF8B422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trip Reports-Trip ReportsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FFD0CED318CB5A66E42B7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trip Reports-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A2BFC6E4D40C14DA781EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trip ReportsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43BAF9B7274370A8001AE308 /* Sources */ = {
@@ -258,7 +463,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				43BAF9C1274370A8001AE308 /* ContentView.swift in Sources */,
+				43B53F2D2745C2A1000AE03C /* MapView.swift in Sources */,
 				43BAF9BF274370A8001AE308 /* Trip_ReportsApp.swift in Sources */,
+				43B53F382745CE6D000AE03C /* LandmarkList.swift in Sources */,
+				43B53F3A2745D0BB000AE03C /* LandmarkDetail.swift in Sources */,
+				43B53F2B2745C104000AE03C /* CircleImage.swift in Sources */,
+				43B53F322745C8EA000AE03C /* Landmark.swift in Sources */,
+				43B53F362745CC25000AE03C /* LandmarkRow.swift in Sources */,
+				43B53F342745CAAB000AE03C /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +625,7 @@
 		};
 		43BAF9E0274370A9001AE308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34419A3EB4B96651C9E7495C /* Pods-Trip Reports.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +654,7 @@
 		};
 		43BAF9E1274370A9001AE308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C690C7C6D8481017A446D41D /* Pods-Trip Reports.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +683,7 @@
 		};
 		43BAF9E3274370A9001AE308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3317259DB1295D243C3058C7 /* Pods-Trip ReportsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +708,7 @@
 		};
 		43BAF9E4274370A9001AE308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F00A08C8DB6A91542885E75 /* Pods-Trip ReportsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +733,7 @@
 		};
 		43BAF9E6274370A9001AE308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01F0460CB9E3610542E8E33 /* Pods-Trip Reports-Trip ReportsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +756,7 @@
 		};
 		43BAF9E7274370A9001AE308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E007286469C7B15E099F95E3 /* Pods-Trip Reports-Trip ReportsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

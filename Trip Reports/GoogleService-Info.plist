@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>263720738580-mt25mtp8qvj57h2b7ec9e3psmf0rn0ej.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.263720738580-mt25mtp8qvj57h2b7ec9e3psmf0rn0ej</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCZaI9nlSyKXG_ylOybeO8FNKJRMvr6UPQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>263720738580</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pat.Trip-Reports</string>
+	<key>PROJECT_ID</key>
+	<string>personal-site-73</string>
+	<key>STORAGE_BUCKET</key>
+	<string>personal-site-73.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:263720738580:ios:8977b4f07c88f66115ac01</string>
+	<key>DATABASE_URL</key>
+	<string>https://personal-site-73.firebaseio.com</string>
+</dict>
+</plist>
